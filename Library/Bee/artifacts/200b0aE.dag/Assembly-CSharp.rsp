@@ -357,6 +357,7 @@
 "Assets/script/Attack.cs"
 "Assets/script/FPSInput.cs"
 "Assets/script/MouseLook.cs"
+"Assets/script/PlayerCombat.cs"
 "Assets/script/RayCaster.cs"
 -langversion:9.0
 
