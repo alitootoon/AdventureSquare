@@ -17,9 +17,10 @@ public class Attack : MonoBehaviour
     {
         if (other.name == "Player01")
         {
-            Debug.Log("Attack!");
+            //Debug.Log("Attack!");
             // I set the 'isAttacking' parameter of the Animator Controller to true
             _animatorS2.SetBool("isAttacking", true);
+
         }
     }
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class Attack : MonoBehaviour
     {
         if (other.name == "Player01")
         {
-            Debug.Log("Stop Attack!");
+            //Debug.Log("Stop Attack!");
             // Do something (e.g., stop subtracting HP)
             _animatorS2.SetBool("isAttacking", false);
         }
