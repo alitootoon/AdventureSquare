@@ -58,6 +58,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\EgyptMonsters\Scripts\DealDamageComponent.cs" />
     <Compile Include="Assets\script\Healthbar.cs" />
     <Compile Include="Assets\script\RayCaster.cs" />
@@ -72,6 +73,17 @@
     <Compile Include="Assets\script\DamagePlayer.cs" />
     <Compile Include="Assets\script\Attack.cs" />
     <Compile Include="Assets\EnableCouldHit.cs" />
+=======
+    <Compile Include="Assets/EgyptMonsters/Scripts/DealDamageComponent.cs" />
+    <Compile Include="Assets/script/PlaverCombat.cs" />
+    <Compile Include="Assets/script/DoorOpen.cs" />
+    <Compile Include="Assets/script/FPSInput.cs" />
+    <Compile Include="Assets/EgyptMonsters/Scripts/DestroyMe.cs" />
+    <Compile Include="Assets/EgyptMonsters/Scripts/DemoController.cs" />
+    <Compile Include="Assets/script/MouseLook.cs" />
+    <Compile Include="Assets/AnimationTest.cs" />
+    <Compile Include="Assets/script/Attack.cs" />
+>>>>>>> 4c005cc5d46d597b14d7c6a8eba219f8fe139e4c
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
