@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/EgyptMonsters/Scripts/DealDamageComponent.cs" />
-    <Compile Include="Assets/script/RayCaster.cs" />
     <Compile Include="Assets/script/DoorOpen.cs" />
     <Compile Include="Assets/script/FPSInput.cs" />
     <Compile Include="Assets/EgyptMonsters/Scripts/DestroyMe.cs" />
