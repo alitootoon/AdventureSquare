@@ -355,6 +355,7 @@
 "Assets/EgyptMonsters/Scripts/DemoController.cs"
 "Assets/EgyptMonsters/Scripts/DestroyMe.cs"
 "Assets/script/Attack.cs"
+"Assets/script/DoorOpen.cs"
 "Assets/script/FPSInput.cs"
 "Assets/script/MouseLook.cs"
 "Assets/script/RayCaster.cs"
