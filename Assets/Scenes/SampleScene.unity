@@ -6581,6 +6581,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff7b76776e0394fa9804ee0b8aea14ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 986593254}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ff7b76776e0394fa9804ee0b8aea14ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 986593255}
   m_SourcePrefab: {fileID: 100100000, guid: ff7b76776e0394fa9804ee0b8aea14ab, type: 3}
 --- !u!4 &603677789 stripped
 Transform:
@@ -10232,6 +10235,24 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986593246}
   m_Enabled: 1
+--- !u!114 &986593255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986593246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e926de659e724a978066a3bd5bf798f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 986593256}
+--- !u!95 &986593256 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ff7b76776e0394fa9804ee0b8aea14ab, type: 3}
+  m_PrefabInstance: {fileID: 600197451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &988240668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20820,6 +20841,7 @@ GameObject:
   - component: {fileID: 1901469366}
   - component: {fileID: 1901469371}
   - component: {fileID: 1901469372}
+  - component: {fileID: 1901469373}
   m_Layer: 0
   m_Name: Player01
   m_TagString: Player01
@@ -20976,6 +20998,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1901469373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901469365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e926de659e724a978066a3bd5bf798f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!4 &1905136840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8460917321318470221, guid: 3964c23ae9838e84889ea6d65b5861aa, type: 3}
