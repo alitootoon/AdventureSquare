@@ -15,7 +15,7 @@ public class Attack : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Player01")
+        if (other.gameObject.tag == "Player01")
         {
             Debug.Log("Attack!");
             // I set the 'isAttacking' parameter of the Animator Controller to true
@@ -25,7 +25,7 @@ public class Attack : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerExit(Collider other)
     {
-        if (other.name == "Player01")
+        if (other.gameObject.tag == "Player01")
         {
             Debug.Log("Stop Attack!");
             // Do something (e.g., stop subtracting HP)

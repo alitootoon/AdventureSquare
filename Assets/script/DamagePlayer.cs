@@ -26,7 +26,8 @@ public class DamagePlayer : MonoBehaviour
             {
                 healthbar.takeDamage(damage);
             }
-            
+            //healthbar.takeDamage(damage);
+
         }
     }
 
