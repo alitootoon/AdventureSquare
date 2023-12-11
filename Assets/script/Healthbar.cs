@@ -9,7 +9,6 @@ public class Healthbar : MonoBehaviour
     public int health;
     public int maxHealth = 10;
     private TextMeshProUGUI healthbarTemp;
-    public GameObject Player;
     // Start is called before the first frame update
     private void Awake()
     {

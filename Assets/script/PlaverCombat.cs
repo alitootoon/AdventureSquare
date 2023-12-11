@@ -39,16 +39,16 @@ public class PlaverCombat : MonoBehaviour
         }
 
     }
-    //private void OnDrawGizmosSelected()
-    //{
+    private void OnDrawGizmosSelected()
+    {
 
-    //    if (AttackPoint == null)
-    //    {
-    //        return;
-    //    }
-    //    Gizmos.DrawWireSphere(AttackPoint.position, attackRange);
-    //}
+        if (AttackPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(AttackPoint.transform.position, attackRange);
+    }
 
-
+    
 
 }

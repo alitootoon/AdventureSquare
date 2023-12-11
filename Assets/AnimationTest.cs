@@ -6,7 +6,6 @@ public class AnimationTest : MonoBehaviour
     private float rotationSpeed = 360.0f;
     private Quaternion defaultRotation; // Default forward rotation
 
-
     void Start()
     {
         _animator = GetComponent<Animator>();
@@ -36,7 +35,7 @@ public class AnimationTest : MonoBehaviour
         // Roll
         if (Input.GetKeyDown("r"))
         {
-            _animator.SetTrigger("Rolling");
+            _animator.SetBool("Rolling", true);
         }
         if (Input.GetKeyUp("r"))
         {
