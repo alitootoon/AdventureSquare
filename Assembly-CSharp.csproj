@@ -71,8 +71,8 @@
     <Compile Include="Assets/AnimationTest.cs" />
     <Compile Include="Assets/script/CharecterMovment.cs" />
     <Compile Include="Assets/DisableCouldhit.cs" />
-    <Compile Include="Assets/damagePlayer.cs" />
     <Compile Include="Assets/script/DamagePlayer.cs" />
+    <Compile Include="Assets/SpiderRun.cs" />
     <Compile Include="Assets/script/Attack.cs" />
     <Compile Include="Assets/EnableCouldHit.cs" />
   </ItemGroup>

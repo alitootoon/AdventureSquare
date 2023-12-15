@@ -4,12 +4,25 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-    private Animator _animatorS2;
+    private Animator animator;
+    Transform player;
+    Rigidbody rb;
+    public float RunRange = 10f;
+
+    public float speed = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
-        _animatorS2 = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
+    }
+    void Update()
+    {
+        if (Vector3.Distance(player.position, rb.position) <= RunRange)
+        {
+            animator.SetTrigger("Run");
+        }
+
     }
 
     // Start is called before the first frame update
@@ -19,7 +32,7 @@ public class Attack : MonoBehaviour
         {
             Debug.Log("Attack!");
             // I set the 'isAttacking' parameter of the Animator Controller to true
-            _animatorS2.SetBool("isAttacking", true);
+            animator.SetBool("isAttacking", true);
         }
     }
     // Update is called once per frame
@@ -29,7 +42,7 @@ public class Attack : MonoBehaviour
         {
             Debug.Log("Stop Attack!");
             // Do something (e.g., stop subtracting HP)
-            _animatorS2.SetBool("isAttacking", false);
+            animator.SetBool("isAttacking", false);
         }
     }
     

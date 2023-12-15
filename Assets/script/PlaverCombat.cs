@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlaverCombat : MonoBehaviour
 {
     public Animator animator;
-    public int weponDamage = 10;
-    public LayerMask enemyLayers;
     public GameObject AttackPoint;
-    public float attackRange = 0.5f;
-    // Start is called before the first frame update
 
-    // Update is called once per frame
+    public LayerMask enemyLayers;
+    
+    public float attackRange = 0.5f;
+    public int weponDamage = 10;
+   
 
     void Update()
     {
@@ -24,7 +24,11 @@ public class PlaverCombat : MonoBehaviour
             animator.SetTrigger("Blocking");
         }
 
+
     }
+
+   
+
     void PlayerAttack()
     {
         animator.SetTrigger("Attack");
