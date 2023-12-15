@@ -23,10 +23,7 @@ public class SpiderRun : StateMachineBehaviour
         Vector3 target = new Vector3(player.position.x,rb.position.y);
         Vector3 newPos = Vector3.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
-        if (Vector3.Distance(player.position,rb.position) <= RunRange)
-        {
-            animator.SetTrigger("Run");
-        }
+       
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
