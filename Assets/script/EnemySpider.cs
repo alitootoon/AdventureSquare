@@ -7,8 +7,10 @@ public class EnemySpider : MonoBehaviour
 {
 
     public float enemyRadios = 10f;
+    public Animator animator;
     Transform target;
     NavMeshAgent agent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class EnemySpider : MonoBehaviour
         float distance = Vector3.Distance(transform.position, target.position);
         if (distance <= enemyRadios)
         {
+            animator.SetTrigger("Run");
             agent.SetDestination(target.position);
         }
         
