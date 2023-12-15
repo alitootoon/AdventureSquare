@@ -10501,6 +10501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRadios: 10
+  animator: {fileID: 507636679}
 --- !u!195 &507636674
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10523,6 +10524,11 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &507636679 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2311635121165665174, guid: 9ab3431b70d8e45e596087f4ac86e23c, type: 3}
+  m_PrefabInstance: {fileID: 712494792711262528}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &509417271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2801341302373484133, guid: cafb3b4966c8c144ebc1342e811a77e0, type: 3}
@@ -45711,6 +45717,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1650918566}
     m_Modifications:
+    - target: {fileID: 5681086378678832987, guid: 7dbe890dfe7a4f34d97f9af2a172b459, type: 3}
+      propertyPath: m_Name
+      value: Doorway Parent 001
+      objectReference: {fileID: 0}
     - target: {fileID: 6240424147512310360, guid: 7dbe890dfe7a4f34d97f9af2a172b459, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -45754,10 +45764,6 @@ PrefabInstance:
     - target: {fileID: 6240424147512310360, guid: 7dbe890dfe7a4f34d97f9af2a172b459, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5681086378678832987, guid: 7dbe890dfe7a4f34d97f9af2a172b459, type: 3}
-      propertyPath: m_Name
-      value: Doorway Parent 001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

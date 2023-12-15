@@ -38,7 +38,9 @@ public class EnemyHealth : MonoBehaviour
     {
 
         Debug.Log("Enemy died");
-        
+        this.enabled = false;
+        GetComponent<Collider>().enabled = false;
+        GetComponent<EnemySpider>().enabled = false;
 
         //die animation
     }
