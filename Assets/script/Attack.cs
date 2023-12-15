@@ -18,10 +18,10 @@ public class Attack : MonoBehaviour
     }
     void Update()
     {
-        if (Vector3.Distance(player.position, rb.position) <= RunRange)
-        {
-            animator.SetTrigger("Run");
-        }
+        //if (Vector3.Distance(player.position, rb.position) <= RunRange)
+        //{
+        //    animator.SetTrigger("Run");
+        //}
 
     }
 

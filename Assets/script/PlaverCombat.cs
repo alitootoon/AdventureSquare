@@ -8,17 +8,27 @@ public class PlaverCombat : MonoBehaviour
     public GameObject AttackPoint;
 
     public LayerMask enemyLayers;
-    
-    public float attackRange = 0.5f;
+
     public int weponDamage = 10;
+    public float attackRange = 0.5f;
+    public float attackRate = 2f;
+    float attackTime = 0f;
+    
+
    
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Time.time >= attackTime)
         {
-            PlayerAttack();
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                PlayerAttack();
+                attackTime = Time.time + 1f / attackRate;
+            }
+
         }
+        
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             animator.SetTrigger("Blocking");
