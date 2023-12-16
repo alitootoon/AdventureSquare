@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!1101 &-7876260594654625389
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -150,6 +151,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!91 &9100000
+AnimatorController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male_Animation_Skeleton_Default
   serializedVersion: 5
   m_AnimatorParameters:
@@ -158,6 +166,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< Updated upstream
     m_Controller: {fileID: 0}
   - m_Name: Walking
     m_Type: 4
@@ -183,6 +192,9 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> Stashed changes
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -198,6 +210,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &1102003536358159248
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,6 +221,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3922921461844721945}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male Land
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -225,11 +248,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102075184184080350
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Roll
   m_Speed: 1
   m_CycleOffset: 0
@@ -251,6 +281,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102097913726934338
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,6 +292,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7999002068623401450}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male Jump Up
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -278,11 +319,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102142064644649106
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Block Hit
   m_Speed: 1
   m_CycleOffset: 0
@@ -304,11 +352,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102157342845842840
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Get Up
   m_Speed: 1
   m_CycleOffset: 0
@@ -330,11 +385,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102171612686385896
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Damage Heavy
   m_Speed: 1
   m_CycleOffset: 0
@@ -356,11 +418,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102220301679994620
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Attack 3
   m_Speed: 1
   m_CycleOffset: 0
@@ -382,11 +451,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102274922726278086
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sprint
   m_Speed: 1
   m_CycleOffset: 0
@@ -408,6 +484,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102332064981782274
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -419,6 +496,16 @@ AnimatorState:
   m_Transitions:
   - {fileID: 4451432091229276662}
   - {fileID: -2883227583814911348}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male Sword Stance
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -436,6 +523,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102414701294786830
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -446,6 +534,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -317924008714262528}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -463,11 +561,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102421402161273378
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Die
   m_Speed: 1
   m_CycleOffset: 0
@@ -489,11 +594,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102545652085291482
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Attack 2
   m_Speed: 1
   m_CycleOffset: 0
@@ -515,11 +627,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102554951633155134
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Die
   m_Speed: 1
   m_CycleOffset: 0
@@ -541,11 +660,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102635382796221860
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Damage Heavy
   m_Speed: 1
   m_CycleOffset: 0
@@ -567,6 +693,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102635579427550910
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -577,6 +704,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -1811652754249246022}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male Sword Block
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -594,6 +731,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102662826810688700
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -604,6 +742,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 8914914339491198260}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male_Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -621,6 +769,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102678307518385000
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -631,6 +780,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3099370156913124031}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male Attack 1
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -648,11 +807,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102723739437390148
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Fall
   m_Speed: 1
   m_CycleOffset: 0
@@ -674,11 +840,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102777843178486112
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Damage Light
   m_Speed: 1
   m_CycleOffset: 0
@@ -700,11 +873,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102791233351445532
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Roll
   m_Speed: 1
   m_CycleOffset: 0
@@ -726,6 +906,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102836371342211284
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -736,6 +917,16 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7876260594654625389}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Male_Sword_Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+>>>>>>> Stashed changes
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -753,11 +944,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102872702011382600
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Damage Light
   m_Speed: 1
   m_CycleOffset: 0
@@ -779,11 +977,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102924031727420378
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Sword Sprint
   m_Speed: 1
   m_CycleOffset: 0
@@ -805,11 +1010,18 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102930749543856260
 AnimatorState:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Male Get Up
   m_Speed: 1
   m_CycleOffset: 0
@@ -831,16 +1043,27 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &1107632418391388642
 AnimatorStateMachine:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> Stashed changes
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102678307518385000}
+<<<<<<< Updated upstream
     m_Position: {x: 800, y: 170, z: 0}
+=======
+    m_Position: {x: 792, y: 228, z: 0}
+>>>>>>> Stashed changes
   - serializedVersion: 1
     m_State: {fileID: 1102545652085291482}
     m_Position: {x: 792, y: 276, z: 0}
@@ -861,16 +1084,27 @@ AnimatorStateMachine:
     m_Position: {x: 1008, y: 72, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102414701294786830}
+<<<<<<< Updated upstream
     m_Position: {x: 290, y: 20, z: 0}
+=======
+    m_Position: {x: 360, y: 24, z: 0}
+>>>>>>> Stashed changes
   - serializedVersion: 1
     m_State: {fileID: 1102723739437390148}
     m_Position: {x: 1224, y: 72, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102097913726934338}
+<<<<<<< Updated upstream
     m_Position: {x: 230, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102003536358159248}
     m_Position: {x: 40, y: 290, z: 0}
+=======
+    m_Position: {x: 1224, y: 24, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1102003536358159248}
+    m_Position: {x: 1224, y: 120, z: 0}
+>>>>>>> Stashed changes
   - serializedVersion: 1
     m_State: {fileID: 1102075184184080350}
     m_Position: {x: 1440, y: 24, z: 0}
@@ -879,7 +1113,11 @@ AnimatorStateMachine:
     m_Position: {x: 576, y: 72, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102635579427550910}
+<<<<<<< Updated upstream
     m_Position: {x: 260, y: 140, z: 0}
+=======
+    m_Position: {x: 1008, y: 228, z: 0}
+>>>>>>> Stashed changes
   - serializedVersion: 1
     m_State: {fileID: 1102142064644649106}
     m_Position: {x: 1008, y: 276, z: 0}
@@ -903,7 +1141,11 @@ AnimatorStateMachine:
     m_Position: {x: 576, y: 276, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102332064981782274}
+<<<<<<< Updated upstream
     m_Position: {x: 220, y: 230, z: 0}
+=======
+    m_Position: {x: 360, y: 228, z: 0}
+>>>>>>> Stashed changes
   - serializedVersion: 1
     m_State: {fileID: 1102836371342211284}
     m_Position: {x: 576, y: 228, z: 0}
@@ -911,9 +1153,13 @@ AnimatorStateMachine:
     m_State: {fileID: 1102662826810688700}
     m_Position: {x: 576, y: 24, z: 0}
   m_ChildStateMachines: []
+<<<<<<< Updated upstream
   m_AnyStateTransitions:
   - {fileID: -3655247554618147393}
   - {fileID: 7065089507750480363}
+=======
+  m_AnyStateTransitions: []
+>>>>>>> Stashed changes
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -922,6 +1168,7 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 408, y: -96, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102332064981782274}
+<<<<<<< Updated upstream
 --- !u!1101 &3099370156913124031
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1038,3 +1285,5 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+=======
+>>>>>>> Stashed changes

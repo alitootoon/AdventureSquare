@@ -59,8 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/EgyptMonsters/Scripts/DealDamageComponent.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets/script/EnemySpider.cs" />
     <Compile Include="Assets/script/Healthbar.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Assets/Cartoon Heroes/Scripts/SetCharacter/SetCharacter.cs" />
     <Compile Include="Assets/script/PlaverCombat.cs" />
     <Compile Include="Assets/script/DoorOpen.cs" />
