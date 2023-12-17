@@ -1,0 +1,16 @@
+newmtl Silver
+map_Kd ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_Albedo.png
+map_Pm ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_Metallic.png
+bump ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_Normal.png
+disp ModularDungeonSeperatedMaterials_Silver Metal (Chest Variation 001)_Height.png
+Kd 1 1 1
+d 1
+
+newmtl Wood
+map_Kd ModularDungeonSeperatedMaterials_Wood Brown (Chest Variation 001)_Albedo.png
+map_Pm ModularDungeonSeperatedMaterials_Wood Brown (Chest Variation 001)_Metallic.png
+bump ModularDungeonSeperatedMaterials_Wood Brown (Chest Variation 001)_Normal.png
+disp ModularDungeonSeperatedMaterials_Wood Brown (Chest Variation 001)_Height.png
+Kd 1 1 1
+d 1
+

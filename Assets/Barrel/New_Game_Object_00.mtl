@@ -1,0 +1,16 @@
+newmtl Barrel_Metal
+map_Kd ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_Albedo.png
+map_Pm ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_Metallic.png
+bump ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_Normal.png
+disp ModularDungeonSeperatedMaterials_Metal (Barrel Variation 001)_Height.png
+Kd 1 1 1
+d 1
+
+newmtl Barrel_Wood
+map_Kd ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Albedo.png
+map_Pm ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Metallic.png
+bump ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Normal.png
+disp ModularDungeonSeperatedMaterials_Brown Wood (Barrel Variation 001)_Height.png
+Kd 1 1 1
+d 1
+

@@ -69,6 +69,7 @@
     <Compile Include="Assets/EgyptMonsters/Scripts/DemoController.cs" />
     <Compile Include="Assets/script/MouseLook.cs" />
     <Compile Include="Assets/script/EnemyHealth.cs" />
+    <Compile Include="Assets/MiniMap.cs" />
     <Compile Include="Assets/AnimationTest.cs" />
     <Compile Include="Assets/script/CharecterMovment.cs" />
     <Compile Include="Assets/DisableCouldhit.cs" />
