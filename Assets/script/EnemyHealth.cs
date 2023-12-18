@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
 {
 
     private Animator animator;
+    
 
     int health;
     public int maxHealth = 100;
@@ -17,6 +18,7 @@ public class EnemyHealth : MonoBehaviour
     {
         health = maxHealth;
         animator = GetComponent<Animator>();
+        
 
 
     }
@@ -26,6 +28,8 @@ public class EnemyHealth : MonoBehaviour
     public void EnemyTakeDamage()
     {
         health -= damage;
+        
+        animator.SetTrigger("Takehit");
  
 
         if (health <= 0)
